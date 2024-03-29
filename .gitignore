@@ -1,1 +1,7 @@
+# Folders
+.vscode
+.github
+/notebooks
+
+# Files
 /Manifest.toml
