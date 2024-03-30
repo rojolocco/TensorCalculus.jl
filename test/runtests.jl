@@ -1,6 +1,5 @@
-using TensorCalculus
-using Test
+using SafeTestsets
 
-@testset "TensorCalculus.jl" begin
-    # Write your tests here.
+@safetestset "Main Tests" begin
+    include("test_main.jl")
 end
